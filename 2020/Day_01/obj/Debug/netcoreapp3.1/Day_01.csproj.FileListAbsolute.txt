@@ -1,0 +1,12 @@
+C:\Users\xephe\source\repos\AdventOfCode\2020\Day_01\bin\Debug\netcoreapp3.1\Day_01.exe
+C:\Users\xephe\source\repos\AdventOfCode\2020\Day_01\bin\Debug\netcoreapp3.1\Day_01.deps.json
+C:\Users\xephe\source\repos\AdventOfCode\2020\Day_01\bin\Debug\netcoreapp3.1\Day_01.runtimeconfig.json
+C:\Users\xephe\source\repos\AdventOfCode\2020\Day_01\bin\Debug\netcoreapp3.1\Day_01.runtimeconfig.dev.json
+C:\Users\xephe\source\repos\AdventOfCode\2020\Day_01\bin\Debug\netcoreapp3.1\Day_01.dll
+C:\Users\xephe\source\repos\AdventOfCode\2020\Day_01\bin\Debug\netcoreapp3.1\Day_01.pdb
+C:\Users\xephe\source\repos\AdventOfCode\2020\Day_01\obj\Debug\netcoreapp3.1\Day_01.AssemblyInfoInputs.cache
+C:\Users\xephe\source\repos\AdventOfCode\2020\Day_01\obj\Debug\netcoreapp3.1\Day_01.AssemblyInfo.cs
+C:\Users\xephe\source\repos\AdventOfCode\2020\Day_01\obj\Debug\netcoreapp3.1\Day_01.csproj.CoreCompileInputs.cache
+C:\Users\xephe\source\repos\AdventOfCode\2020\Day_01\obj\Debug\netcoreapp3.1\Day_01.dll
+C:\Users\xephe\source\repos\AdventOfCode\2020\Day_01\obj\Debug\netcoreapp3.1\Day_01.pdb
+C:\Users\xephe\source\repos\AdventOfCode\2020\Day_01\obj\Debug\netcoreapp3.1\Day_01.genruntimeconfig.cache

@@ -1,0 +1,184 @@
+Inputing value 1 to location 225.
+Adding 1 and 1100, inserting into 6.
+Adding 1 and 238, inserting into 225.
+Setting ouput value to 0.
+Settings Worker A output value to 0 prior to instruction #12.
+Adding 14 and 50, inserting into 224.
+Adding -64 and 64, inserting into 224.
+Setting ouput value to 0.
+Settings Worker A output value to 0 prior to instruction #22.
+Multiplying 0 and 8, inserting into 223.
+Adding 5 and 0, inserting into 224.
+Adding 5 and 0, inserting into 223.
+Multiplying 29 and 53, inserting into 224.
+Adding 1537 and -1537, inserting into 224.
+Setting ouput value to 0.
+Settings Worker A output value to 0 prior to instruction #44.
+Multiplying 8 and 5, inserting into 223.
+Adding 0 and 2, inserting into 224.
+Adding 40 and 2, inserting into 223.
+Multiplying 7 and 5, inserting into 224.
+Adding -35 and 35, inserting into 224.
+Setting ouput value to 0.
+Settings Worker A output value to 0 prior to instruction #66.
+Multiplying 42 and 8, inserting into 223.
+Adding 0 and 5, inserting into 224.
+Adding 5 and 336, inserting into 223.
+Multiplying 76 and 17, inserting into 225.
+Multiplying 21 and 44, inserting into 224.
+Adding 924 and -924, inserting into 224.
+Setting ouput value to 0.
+Settings Worker A output value to 0 prior to instruction #92.
+Multiplying 8 and 341, inserting into 223.
+Adding 0 and 4, inserting into 224.
+Adding 4 and 2728, inserting into 223.
+Adding 37 and 33, inserting into 224.
+Adding -70 and 70, inserting into 224.
+Setting ouput value to 0.
+Settings Worker A output value to 0 prior to instruction #114.
+Multiplying 2732 and 8, inserting into 223.
+Adding 6 and 0, inserting into 224.
+Adding 21856 and 6, inserting into 223.
+Multiplying 46 and 43, inserting into 224.
+Adding 1978 and -1978, inserting into 224.
+Setting ouput value to 0.
+Settings Worker A output value to 0 prior to instruction #136.
+Multiplying 8 and 21862, inserting into 223.
+Adding 0 and 5, inserting into 224.
+Adding 5 and 174896, inserting into 223.
+Multiplying 5 and 29, inserting into 225.
+Adding 10 and 7, inserting into 225.
+Adding 43 and 38, inserting into 225.
+Multiplying 33 and 46, inserting into 225.
+Adding 17 and 56, inserting into 224.
+Adding 73 and -73, inserting into 224.
+Setting ouput value to 0.
+Settings Worker A output value to 0 prior to instruction #174.
+Multiplying 8 and 174901, inserting into 223.
+Adding 4 and 0, inserting into 224.
+Adding 4 and 1399208, inserting into 223.
+Adding 52 and 56, inserting into 225.
+Adding 14 and 22, inserting into 225.
+Adding 66 and 49, inserting into 224.
+Adding 115 and -115, inserting into 224.
+Setting ouput value to 0.
+Settings Worker A output value to 0 prior to instruction #204.
+Multiplying 1399212 and 8, inserting into 223.
+Adding 0 and 7, inserting into 224.
+Adding 7 and 11193696, inserting into 223.
+Adding 25 and 53, inserting into 225.
+Setting ouput value to 11193703.
+Settings Worker A output value to 11193703 prior to instruction #222.
+Part 1: 11193703
+Inputing value 5 to location 225.
+Adding 5 and 1100, inserting into 6.
+Checking if 1 != 0, jumping to 238 if true.
+Checking if 0 != 0, jumping to 99999 if true.
+Checking if 227 != 0, jumping to 247 if true.
+Checking if 0 != 0, jumping to 99999 if true.
+Checking if 3 != 0, jumping to 256 if true.
+Checking if 227 == 0, jumping to 99999 if false.
+Checking if 0 == 0, jumping to 265 if false.
+Checking if 3 == 0, jumping to 99999 if false.
+Checking if 0 == 0, jumping to 274 if false.
+Checking if 1 != 0, jumping to 280 if true.
+Adding 5 and 5, inserting into 225.
+Adding 294 and 0, inserting into 0.
+Checking if 1 != 0, jumping to 294 if true.
+Checking if 0 == 0, jumping to 300 if false.
+Adding 10 and 10, inserting into 225.
+Adding 314 and 0, inserting into 0.
+Checking if 0 == 0, jumping to 314 if false.
+Checking if 226 == 677 if true. Setting 224 to 1 if so, to 0 otherwise.
+Multiplying 0 and 2, inserting into 223.
+Checking if 0 != 0, jumping to 329 if true.
+Adding 1 and 0, inserting into 223.
+Checking if 677 == 226 if true. Setting 224 to 1 if so, to 0 otherwise.
+Multiplying 1 and 2, inserting into 223.
+Checking if 0 == 0, jumping to 344 if false.
+Checking if 226 == 226 if true. Setting 224 to 1 if so, to 0 otherwise.
+Multiplying 2 and 2, inserting into 223.
+Checking if 1 == 0, jumping to 359 if false.
+Adding 1 and 4, inserting into 223.
+Checking if 677 < 226 if true. Setting 224 to 1 if so, to 0 otherwise.
+Multiplying 2 and 5, inserting into 223.
+Checking if 0 != 0, jumping to 374 if true.
+Adding 1 and 10, inserting into 223.
+Checking if 226 < 677 if true. Setting 224 to 1 if so, to 0 otherwise.
+Multiplying 2 and 11, inserting into 223.
+Checking if 1 == 0, jumping to 389 if false.
+Adding 1 and 22, inserting into 223.
+Checking if 226 < 677 if true. Setting 224 to 1 if so, to 0 otherwise.
+Multiplying 23 and 2, inserting into 223.
+Checking if 1 == 0, jumping to 404 if false.
+Adding 46 and 1, inserting into 223.
+Checking if 677 < 226 if true. Setting 224 to 1 if so, to 0 otherwise.
+Multiplying 47 and 2, inserting into 223.
+Checking if 0 == 0, jumping to 419 if false.
+Checking if 677 < 226 if true. Setting 224 to 1 if so, to 0 otherwise.
+Multiplying 2 and 94, inserting into 223.
+Checking if 0 != 0, jumping to 434 if true.
+Adding 1 and 188, inserting into 223.
+Checking if 677 == 677 if true. Setting 224 to 1 if so, to 0 otherwise.
+Multiplying 2 and 189, inserting into 223.
+Checking if 1 != 0, jumping to 449 if true.
+Checking if 226 < 677 if true. Setting 224 to 1 if so, to 0 otherwise.
+Multiplying 378 and 2, inserting into 223.
+Checking if 1 == 0, jumping to 464 if false.
+Adding 756 and 1, inserting into 223.
+Checking if 677 == 226 if true. Setting 224 to 1 if so, to 0 otherwise.
+Multiplying 2 and 757, inserting into 223.
+Checking if 0 == 0, jumping to 479 if false.
+Checking if 677 < 677 if true. Setting 224 to 1 if so, to 0 otherwise.
+Multiplying 1514 and 2, inserting into 223.
+Checking if 0 != 0, jumping to 494 if true.
+Adding 3028 and 1, inserting into 223.
+Checking if 226 == 226 if true. Setting 224 to 1 if so, to 0 otherwise.
+Multiplying 3029 and 2, inserting into 223.
+Checking if 1 == 0, jumping to 509 if false.
+Adding 1 and 6058, inserting into 223.
+Checking if 677 == 226 if true. Setting 224 to 1 if so, to 0 otherwise.
+Multiplying 2 and 6059, inserting into 223.
+Checking if 0 != 0, jumping to 524 if true.
+Adding 12118 and 1, inserting into 223.
+Checking if 677 < 226 if true. Setting 224 to 1 if so, to 0 otherwise.
+Multiplying 12119 and 2, inserting into 223.
+Checking if 0 != 0, jumping to 539 if true.
+Adding 1 and 24238, inserting into 223.
+Checking if 226 < 226 if true. Setting 224 to 1 if so, to 0 otherwise.
+Multiplying 24239 and 2, inserting into 223.
+Checking if 0 == 0, jumping to 554 if false.
+Checking if 226 < 677 if true. Setting 224 to 1 if so, to 0 otherwise.
+Multiplying 48478 and 2, inserting into 223.
+Checking if 1 == 0, jumping to 569 if false.
+Adding 96956 and 1, inserting into 223.
+Checking if 677 == 226 if true. Setting 224 to 1 if so, to 0 otherwise.
+Multiplying 2 and 96957, inserting into 223.
+Checking if 0 != 0, jumping to 584 if true.
+Adding 193914 and 1, inserting into 223.
+Checking if 226 == 677 if true. Setting 224 to 1 if so, to 0 otherwise.
+Multiplying 2 and 193915, inserting into 223.
+Checking if 0 != 0, jumping to 599 if true.
+Adding 387830 and 1, inserting into 223.
+Checking if 677 < 677 if true. Setting 224 to 1 if so, to 0 otherwise.
+Multiplying 2 and 387831, inserting into 223.
+Checking if 0 == 0, jumping to 614 if false.
+Checking if 677 < 677 if true. Setting 224 to 1 if so, to 0 otherwise.
+Multiplying 2 and 775662, inserting into 223.
+Checking if 0 != 0, jumping to 629 if true.
+Adding 1551324 and 1, inserting into 223.
+Checking if 677 == 677 if true. Setting 224 to 1 if so, to 0 otherwise.
+Multiplying 2 and 1551325, inserting into 223.
+Checking if 1 == 0, jumping to 644 if false.
+Adding 3102650 and 1, inserting into 223.
+Checking if 226 == 677 if true. Setting 224 to 1 if so, to 0 otherwise.
+Multiplying 3102651 and 2, inserting into 223.
+Checking if 0 != 0, jumping to 659 if true.
+Adding 1 and 6205302, inserting into 223.
+Checking if 226 == 677 if true. Setting 224 to 1 if so, to 0 otherwise.
+Multiplying 2 and 6205303, inserting into 223.
+Checking if 0 != 0, jumping to 674 if true.
+Adding 1 and 12410606, inserting into 223.
+Setting ouput value to 12410607.
+Settings Worker A output value to 12410607 prior to instruction #676.
+Part 2: 12410607

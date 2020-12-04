@@ -1,0 +1,18 @@
+C:\Users\xephe\Documents\GitHub\AdventOfCode\2019\win\AdventOfCode2019\Day2\bin\Debug\Day2.exe.config
+C:\Users\xephe\Documents\GitHub\AdventOfCode\2019\win\AdventOfCode2019\Day2\bin\Debug\Day2.exe
+C:\Users\xephe\Documents\GitHub\AdventOfCode\2019\win\AdventOfCode2019\Day2\bin\Debug\Day2.pdb
+C:\Users\xephe\Documents\GitHub\AdventOfCode\2019\win\AdventOfCode2019\Day2\bin\Debug\XephLibs.AdventOfCode.dll
+C:\Users\xephe\Documents\GitHub\AdventOfCode\2019\win\AdventOfCode2019\Day2\bin\Debug\XephLibs.Base.dll
+C:\Users\xephe\Documents\GitHub\AdventOfCode\2019\win\AdventOfCode2019\Day2\bin\Debug\XephLibs.Graphing.dll
+C:\Users\xephe\Documents\GitHub\AdventOfCode\2019\win\AdventOfCode2019\Day2\bin\Debug\XephLibs.Mathematics.dll
+C:\Users\xephe\Documents\GitHub\AdventOfCode\2019\win\AdventOfCode2019\Day2\bin\Debug\XephLibs.Trees.dll
+C:\Users\xephe\Documents\GitHub\AdventOfCode\2019\win\AdventOfCode2019\Day2\bin\Debug\XephLibs.AdventOfCode.pdb
+C:\Users\xephe\Documents\GitHub\AdventOfCode\2019\win\AdventOfCode2019\Day2\bin\Debug\XephLibs.Base.pdb
+C:\Users\xephe\Documents\GitHub\AdventOfCode\2019\win\AdventOfCode2019\Day2\bin\Debug\XephLibs.Graphing.pdb
+C:\Users\xephe\Documents\GitHub\AdventOfCode\2019\win\AdventOfCode2019\Day2\bin\Debug\XephLibs.Mathematics.pdb
+C:\Users\xephe\Documents\GitHub\AdventOfCode\2019\win\AdventOfCode2019\Day2\bin\Debug\XephLibs.Trees.pdb
+C:\Users\xephe\Documents\GitHub\AdventOfCode\2019\win\AdventOfCode2019\Day2\obj\Debug\Day02_1202 Program Alarm (IC).csprojAssemblyReference.cache
+C:\Users\xephe\Documents\GitHub\AdventOfCode\2019\win\AdventOfCode2019\Day2\obj\Debug\Day02_1202 Program Alarm (IC).csproj.CoreCompileInputs.cache
+C:\Users\xephe\Documents\GitHub\AdventOfCode\2019\win\AdventOfCode2019\Day2\obj\Debug\Day02_1202 Program Alarm (IC).csproj.CopyComplete
+C:\Users\xephe\Documents\GitHub\AdventOfCode\2019\win\AdventOfCode2019\Day2\obj\Debug\Day2.exe
+C:\Users\xephe\Documents\GitHub\AdventOfCode\2019\win\AdventOfCode2019\Day2\obj\Debug\Day2.pdb

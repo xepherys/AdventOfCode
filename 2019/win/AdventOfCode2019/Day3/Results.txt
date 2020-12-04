@@ -1,0 +1,41 @@
+﻿First Pass: No optimization
+
+Initialized and starting process at 0ms (53 ticks).
+
+
+Finished parsing files at 2ms (20770 ticks).
+
+
+Finished getting paths at 2ms (29818 ticks).
+
+
+Finished exploding paths at 64ms (643374 ticks).
+
+
+Completed processing at 231ms (2317257 ticks).
+
+
+Lowest Manhattan distance intersection between Wire 1 and Wire 2 is: 266
+Lowest latency intersection between Wire 1 and Wire 2 is: 19242
+
+
+
+Second Pass: Use split array for paths
+
+Initialized and starting process at 0ms (67 ticks).
+
+
+Finished parsing files at 3ms (31865 ticks).
+
+
+Finished getting paths at 3ms (39237 ticks).
+
+
+Finished exploding paths at 44ms (441352 ticks).
+
+
+Completed processing at 144ms (1447902 ticks).
+
+
+Lowest Manhattan distance intersection between Wire 1 and Wire 2 is: 266
+Lowest latency intersection between Wire 1 and Wire 2 is: 19242

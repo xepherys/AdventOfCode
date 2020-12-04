@@ -1,0 +1,18 @@
+C:\Users\xephe\Documents\GitHub\AdventOfCode\2019\win\AdventOfCode2019\Day11_Space Police\bin\Debug\Day11_Space Police.exe.config
+C:\Users\xephe\Documents\GitHub\AdventOfCode\2019\win\AdventOfCode2019\Day11_Space Police\bin\Debug\Day11_Space Police.exe
+C:\Users\xephe\Documents\GitHub\AdventOfCode\2019\win\AdventOfCode2019\Day11_Space Police\bin\Debug\Day11_Space Police.pdb
+C:\Users\xephe\Documents\GitHub\AdventOfCode\2019\win\AdventOfCode2019\Day11_Space Police\bin\Debug\XephLibs.AdventOfCode.dll
+C:\Users\xephe\Documents\GitHub\AdventOfCode\2019\win\AdventOfCode2019\Day11_Space Police\bin\Debug\XephLibs.Graphing.dll
+C:\Users\xephe\Documents\GitHub\AdventOfCode\2019\win\AdventOfCode2019\Day11_Space Police\bin\Debug\XephLibs.Base.dll
+C:\Users\xephe\Documents\GitHub\AdventOfCode\2019\win\AdventOfCode2019\Day11_Space Police\bin\Debug\XephLibs.Mathematics.dll
+C:\Users\xephe\Documents\GitHub\AdventOfCode\2019\win\AdventOfCode2019\Day11_Space Police\bin\Debug\XephLibs.Trees.dll
+C:\Users\xephe\Documents\GitHub\AdventOfCode\2019\win\AdventOfCode2019\Day11_Space Police\obj\Debug\Day11_Space Police.csprojAssemblyReference.cache
+C:\Users\xephe\Documents\GitHub\AdventOfCode\2019\win\AdventOfCode2019\Day11_Space Police\obj\Debug\Day11_Space Police.csproj.CoreCompileInputs.cache
+C:\Users\xephe\Documents\GitHub\AdventOfCode\2019\win\AdventOfCode2019\Day11_Space Police\obj\Debug\Day11_Space Police.csproj.CopyComplete
+C:\Users\xephe\Documents\GitHub\AdventOfCode\2019\win\AdventOfCode2019\Day11_Space Police\obj\Debug\Day11_Space Police.exe
+C:\Users\xephe\Documents\GitHub\AdventOfCode\2019\win\AdventOfCode2019\Day11_Space Police\obj\Debug\Day11_Space Police.pdb
+C:\Users\xephe\Documents\GitHub\AdventOfCode\2019\win\AdventOfCode2019\Day11_Space Police\bin\Debug\XephLibs.AdventOfCode.pdb
+C:\Users\xephe\Documents\GitHub\AdventOfCode\2019\win\AdventOfCode2019\Day11_Space Police\bin\Debug\XephLibs.Base.pdb
+C:\Users\xephe\Documents\GitHub\AdventOfCode\2019\win\AdventOfCode2019\Day11_Space Police\bin\Debug\XephLibs.Graphing.pdb
+C:\Users\xephe\Documents\GitHub\AdventOfCode\2019\win\AdventOfCode2019\Day11_Space Police\bin\Debug\XephLibs.Mathematics.pdb
+C:\Users\xephe\Documents\GitHub\AdventOfCode\2019\win\AdventOfCode2019\Day11_Space Police\bin\Debug\XephLibs.Trees.pdb

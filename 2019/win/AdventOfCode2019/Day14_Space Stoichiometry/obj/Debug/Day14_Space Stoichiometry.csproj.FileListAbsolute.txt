@@ -1,0 +1,7 @@
+C:\Users\xephe\Documents\GitHub\AdventOfCode\2019\win\AdventOfCode2019\Day14_Space Stoichiometry\bin\Debug\Day14_Space Stoichiometry.exe.config
+C:\Users\xephe\Documents\GitHub\AdventOfCode\2019\win\AdventOfCode2019\Day14_Space Stoichiometry\bin\Debug\Day14_Space Stoichiometry.exe
+C:\Users\xephe\Documents\GitHub\AdventOfCode\2019\win\AdventOfCode2019\Day14_Space Stoichiometry\bin\Debug\Day14_Space Stoichiometry.pdb
+C:\Users\xephe\Documents\GitHub\AdventOfCode\2019\win\AdventOfCode2019\Day14_Space Stoichiometry\obj\Debug\Day14_Space Stoichiometry.csproj.CoreCompileInputs.cache
+C:\Users\xephe\Documents\GitHub\AdventOfCode\2019\win\AdventOfCode2019\Day14_Space Stoichiometry\obj\Debug\Day14_Space Stoichiometry.exe
+C:\Users\xephe\Documents\GitHub\AdventOfCode\2019\win\AdventOfCode2019\Day14_Space Stoichiometry\obj\Debug\Day14_Space Stoichiometry.pdb
+C:\Users\xephe\Documents\GitHub\AdventOfCode\2019\win\AdventOfCode2019\Day14_Space Stoichiometry\obj\Debug\Day14_Space Stoichiometry.csprojAssemblyReference.cache
