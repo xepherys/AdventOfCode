@@ -1,7 +1,0 @@
-D:\source\repos\AdventOfCode\2019\win\AdventOfCode2019\Day1\bin\x64\Debug\Day1.exe.config
-D:\source\repos\AdventOfCode\2019\win\AdventOfCode2019\Day1\bin\x64\Debug\Day1.exe
-D:\source\repos\AdventOfCode\2019\win\AdventOfCode2019\Day1\bin\x64\Debug\Day1.pdb
-D:\source\repos\AdventOfCode\2019\win\AdventOfCode2019\Day1\obj\x64\Debug\2019_01_The Tyranny of the Rocket Equation.csprojAssemblyReference.cache
-D:\source\repos\AdventOfCode\2019\win\AdventOfCode2019\Day1\obj\x64\Debug\2019_01_The Tyranny of the Rocket Equation.csproj.CoreCompileInputs.cache
-D:\source\repos\AdventOfCode\2019\win\AdventOfCode2019\Day1\obj\x64\Debug\Day1.exe
-D:\source\repos\AdventOfCode\2019\win\AdventOfCode2019\Day1\obj\x64\Debug\Day1.pdb
