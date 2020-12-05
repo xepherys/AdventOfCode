@@ -158,7 +158,7 @@ namespace Day8_SpaceImageFormat
         {
             string str;
 
-            using (Stream stream = File.OpenRead(@"..\..\..\Day08_Input.txt"))
+            using (Stream stream = File.OpenRead(@"..\..\Day08_Input.txt"))
             using (StreamReader reader = new StreamReader(stream))
             {
                 str = reader.ReadLine();

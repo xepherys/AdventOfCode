@@ -4,7 +4,7 @@ using System.Diagnostics;
 using System.IO;
 using System.Linq;
 
-using AoC;
+using XephLibs.Mathematics;
 
 /*
 Asteroid with the greatest visibility is (17, 22) with eyes on 288 other asteroids.
@@ -118,7 +118,7 @@ namespace Day10_Monitoring_Station
         {
             List<string> lines = new List<string>();
 
-            using (Stream stream = File.OpenRead(@"..\..\..\Day10_Input.txt"))
+            using (Stream stream = File.OpenRead(@"..\..\Day10_Input.txt"))
             using (StreamReader reader = new StreamReader(stream))
             {
                 string line;

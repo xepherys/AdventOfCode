@@ -2,7 +2,6 @@
 using System.IO;
 
 using XephLibs.AdventOfCode.IntCode;
-using XephLibs.Base;
 
 namespace Day11_Space_Police
 {
@@ -19,7 +18,7 @@ namespace Day11_Space_Police
             vm.SpecialInstructions = "PainterBot";
             vm.Debug = true;
             #if DEBUG
-            //vm.Verbose = true;
+            vm.Verbose = true;
             #endif
             vm.Run();
 
@@ -30,7 +29,7 @@ namespace Day11_Space_Police
         {
             string[] strArr;
 
-            using (Stream stream = File.OpenRead(@"..\..\..\Day11_Input.txt"))
+            using (Stream stream = File.OpenRead(@"..\..\Day11_Input.txt"))
             using (StreamReader reader = new StreamReader(stream))
             {
                 strArr = reader.ReadLine().Split(',');

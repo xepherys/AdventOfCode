@@ -1,7 +1,8 @@
 ﻿using System;
 using System.IO;
 
-using AoC.IntCode;
+using XephLibs.AdventOfCode.IntCode;
+using XephLibs.Base;
 
 /*
 Part 1: 352119 is too low.

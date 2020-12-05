@@ -159,7 +159,7 @@ namespace Day12_The_N_Body_Problem
         {
             string line;
 
-            using (Stream stream = File.OpenRead(@"..\..\..\Day12_Input.txt"))
+            using (Stream stream = File.OpenRead(@"..\..\Day12_Input.txt"))
             using (StreamReader reader = new StreamReader(stream))
             {
                 while ((line = reader.ReadLine()) != null)
@@ -180,7 +180,7 @@ namespace Day12_The_N_Body_Problem
             yC.Clear();
             zC.Clear();
             string line;
-            using (Stream stream = File.OpenRead(@"..\..\..\Day12_Input.txt"))
+            using (Stream stream = File.OpenRead(@"..\..\Day12_Input.txt"))
             using (StreamReader reader = new StreamReader(stream))
             {
                 while ((line = reader.ReadLine()) != null)

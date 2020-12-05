@@ -2,7 +2,7 @@
 using System.Diagnostics;
 using System.IO;
 
-using AoC.IntCode;
+using XephLibs.AdventOfCode.IntCode;
 
 /*
 Benchmarking
@@ -28,7 +28,7 @@ namespace Day9_Sensor_Boost
             sw.Start();
             vm = new IntCodeVM(1, (long[])program.Clone(), new long[] { 2 });
             #if DEBUG
-            //vm.Verbose = true;
+            vm.Verbose = true;
             #endif
             vm.Run();
             sw.Stop();
@@ -45,7 +45,7 @@ namespace Day9_Sensor_Boost
         {
             string[] strArr;
 
-            using (Stream stream = File.OpenRead(@"..\..\..\Day09_Input.txt"))
+            using (Stream stream = File.OpenRead(@"..\..\Day09_Input.txt"))
             using (StreamReader reader = new StreamReader(stream))
             {
                 strArr = reader.ReadLine().Split(',');

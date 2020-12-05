@@ -4,8 +4,8 @@ using System.IO;
 using System.Linq;
 using System.Numerics;
 
-using AoC.Extensions;
-using AoC.IntCode;
+using XephLibs.AdventOfCode.IntCode;
+using XephLibs.Base;
 
 
 namespace Day7_InputAmplifier
@@ -210,7 +210,7 @@ namespace Day7_InputAmplifier
         {
             string[] strArr;
 
-            using (Stream stream = File.OpenRead(@"..\..\..\Day07_Input.txt"))
+            using (Stream stream = File.OpenRead(@"..\..\Day07_Input.txt"))
             using (StreamReader reader = new StreamReader(stream))
             {
                 strArr = reader.ReadLine().Split(',');
