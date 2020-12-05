@@ -78,7 +78,7 @@ namespace Day14_Space_Stoichiometry
             string line;
             
 
-            using (Stream stream = File.OpenRead(@"..\..\..\Day14_Input_Sample5.txt"))
+            using (Stream stream = File.OpenRead(@"..\..\Day14_Input_Sample5.txt"))
             using (StreamReader reader = new StreamReader(stream))
             {
                 while ((line = reader.ReadLine()) != null)
@@ -95,7 +95,7 @@ namespace Day14_Space_Stoichiometry
         {
             string line;
 
-            using (Stream stream = File.OpenRead(@"..\..\..\Day14_Input.txt"))
+            using (Stream stream = File.OpenRead(@"..\..\Day14_Input.txt"))
             using (StreamReader reader = new StreamReader(stream))
             {
                 while ((line = reader.ReadLine()) != null)

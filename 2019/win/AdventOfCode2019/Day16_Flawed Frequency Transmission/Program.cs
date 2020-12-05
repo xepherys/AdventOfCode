@@ -4,8 +4,8 @@ using System.Diagnostics;
 using System.IO;
 using System.Linq;
 
-using AoC.Collections;
-using AoC.Extensions;
+using XephLibs.Base.Collections;
+using XephLibs.Base.ExtensionMethods;
 
 /*
 Part A:
@@ -95,7 +95,7 @@ namespace Day16_Flawed_Frequency_Transmission
             string inputString = String.Empty;
             string line;
 
-            using (Stream stream = File.OpenRead(@"..\..\..\Day16_Input.txt"))
+            using (Stream stream = File.OpenRead(@"..\..\Day16_Input.txt"))
             using (StreamReader reader = new StreamReader(stream))
             {
                 while ((line = reader.ReadLine()) != null)
@@ -164,7 +164,7 @@ namespace Day16_Flawed_Frequency_Transmission
 
         public static void GetNewPattern(int val)
         {
-            basePattern.Reset();
+            //basePattern.Reset();
             pattern = new List<int>();
             int j = 0;
 

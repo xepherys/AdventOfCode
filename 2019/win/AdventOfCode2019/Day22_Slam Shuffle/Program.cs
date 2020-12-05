@@ -1,10 +1,7 @@
-﻿using AoC.Extensions;
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Day22_Slam_Shuffle
 {
@@ -94,9 +91,9 @@ namespace Day22_Slam_Shuffle
         {
             List<long> temp = FetchCards(cards.Count);
 
-            for (long i = 0; i < cards.Count; i++)
+            for (int i = 0; i < cards.Count; i++)
             {
-                long place = i * count;
+                int place = i * count;
                 while (place >= cards.Count)
                     place -= cards.Count;
                 temp[place] = cards[i];
@@ -109,7 +106,7 @@ namespace Day22_Slam_Shuffle
         {
             string line;
 
-            using (Stream stream = File.OpenRead(@"..\..\..\Day22_Input.txt"))
+            using (Stream stream = File.OpenRead(@"..\..\Day22_Input.txt"))
             using (StreamReader reader = new StreamReader(stream))
             {
                 while ((line = reader.ReadLine()) != null)

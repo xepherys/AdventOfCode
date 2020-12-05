@@ -3,8 +3,6 @@ using System.Collections.Generic;
 using System.Diagnostics;
 using System.IO;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Day19
 {
@@ -29,7 +27,7 @@ namespace Day19
             #region Read in input
             try
             {
-                using (Stream stream = File.OpenRead(@"day19.in"))
+                using (Stream stream = File.OpenRead(@"..\..\day19.in"))
                 using (StreamReader reader = new StreamReader(stream))
                 {
                     string line;
