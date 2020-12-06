@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <RootNamespace>_2020_06_Custom_Customs</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Reference Include="XephLibs.Base">
+      <HintPath>..\..\Imports\XephLibs.Base.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>
