@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.IO;
 
-namespace Day2
+namespace _2020_02_Password_Philosophy
 {
     class Program
     {

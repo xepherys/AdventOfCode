@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.IO;
 
-namespace AdventOfCode2020
+namespace _2020_01_Report_Repair
 {
     class Program
     {

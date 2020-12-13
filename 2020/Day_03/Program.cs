@@ -1,9 +1,8 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
 using System.IO;
 
-namespace Day3
+namespace _2020_03_Toboggan_Trajectory
 {
     // Part 2:  428316104  is too low
 
