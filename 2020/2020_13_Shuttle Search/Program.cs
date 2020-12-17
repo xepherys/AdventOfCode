@@ -1,7 +1,5 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.IO;
-using System.Linq;
 
 namespace _2020_13_Shuttle_Search
 {
@@ -70,6 +68,7 @@ namespace _2020_13_Shuttle_Search
         static long ParsePart2()
         {
             // (x + times[0]) % times[1] == 0 for all buses. Find x.
+            // Chinese Remainder Theorem
             long[,] times = new long[busses.Length, 2];
 
             long product = 1;
