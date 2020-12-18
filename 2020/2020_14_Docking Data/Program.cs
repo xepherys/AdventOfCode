@@ -175,7 +175,7 @@ namespace _2020_14_Docking_Data
     }
 
 
-    public static class StringExtnesions
+    public static class StringExtensions
     {
         public static int[] IndicesOf(this string source, char value)
         {
