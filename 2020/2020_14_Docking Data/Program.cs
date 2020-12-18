@@ -10,9 +10,9 @@ namespace _2020_14_Docking_Data
     class Program
     {
         // Part 2: 2722954324463544 (too high)
+        // Part 2: 2776901745812 (too low)
 
-        public static Dictionary<int, long> memory = new Dictionary<int, long>();
-        public static Dictionary<int, List<long>> memory2 = new Dictionary<int, List<long>>();
+        public static Dictionary<long, long> memory = new Dictionary<long, long>();
         public static string mask = "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX";
         public static int part = 1;
 
@@ -29,11 +29,7 @@ namespace _2020_14_Docking_Data
             mask = "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX";
             part++;
             ParseData();
-            answer = GetAnswer2();
-
-            foreach (KeyValuePair<int, List<long>> kvp in memory2)
-                foreach (long l in kvp.Value)
-                    Console.WriteLine(l);
+            answer = GetAnswer();
 
             Console.WriteLine(String.Format("Part 2 answer: {0}", answer));
             Console.Read();
@@ -42,7 +38,7 @@ namespace _2020_14_Docking_Data
 
         static void ParseData()
         {
-            using (Stream stream = File.OpenRead(@"..\..\..\Day14_InputSample2.txt"))
+            using (Stream stream = File.OpenRead(@"..\..\..\Day14_Input.txt"))
             using (StreamReader reader = new StreamReader(stream))
             {
                 string s;
@@ -75,23 +71,8 @@ namespace _2020_14_Docking_Data
         {
             long _ret = 0;
 
-            foreach (KeyValuePair<int, long> kvp in memory)
+            foreach (KeyValuePair<long, long> kvp in memory)
                 _ret += kvp.Value;
-
-            return _ret;
-        }
-
-        static long GetAnswer2()
-        {
-            long _ret = 0;
-
-            foreach (KeyValuePair<int, List<long>> kvp in memory2)
-            {
-                foreach (long l in kvp.Value)
-                {
-                    _ret += l;
-                }
-            }
 
             return _ret;
         }
@@ -139,44 +120,38 @@ namespace _2020_14_Docking_Data
 
         static void ParseValue2(string s)
         {
-            int memoryAddress;
-            List<long> values = new List<long>();
-            List<string> binaryStrings = new List<string>();
+            long memoryAddress;
+            List<long> addresses = new List<long>();
 
             string exp = @"mem[[](\d+)[]] = (\d+)";
             Regex r = new Regex(exp, RegexOptions.IgnoreCase);
 
             Match m = r.Match(s);
-            memoryAddress = Int32.Parse(m.Groups[1].ToString());
+            memoryAddress = Int64.Parse(m.Groups[1].ToString());
             long value = Int64.Parse(m.Groups[2].ToString());
 
-            string val = Convert.ToString(value, 2);
-            //val = val.PadLeft(36, '0');
+            string mem = Convert.ToString(memoryAddress, 2);
+            mem = mem.PadLeft(mask.Length, '0');
 
-            string imask = mask.Substring(mask.Length - val.Length, val.Length);
+            int[] xIndices = mask.IndicesOf('X');
 
-            int[] xIndices = imask.IndicesOf('X');
+            StringBuilder sb = new StringBuilder(mem);
 
-            StringBuilder sb = new StringBuilder(val);
-
-            for (int i = 0; i < val.Length; i++)
+            for (int i = 0; i < mem.Length; i++)
             {
                 if (mask[i] == '1')
                     sb[i] = '1';
             }
 
             int combinations = (int)Math.Pow(2, xIndices.Length);
-            Console.WriteLine("Number of combinations: " + combinations);
 
             for (int i = 0; i < combinations; i++)
             {
                 string ss = Convert.ToString(i, 2).PadLeft(xIndices.Length, '0');
-                //Console.WriteLine(s);
                 StringBuilder sb2 = new StringBuilder(sb.ToString());
 
                 for (int j = 0; j < xIndices.Length; j++)
                 {
-                    //Console.WriteLine($"i: {i} j: {j} i + 1 & j: {i + 1 & j}");
                     if (ss[j] == '1')
                     {
                         sb2[xIndices[j]] = '1';
@@ -188,14 +163,14 @@ namespace _2020_14_Docking_Data
                     }
                 }
 
-                if (!binaryStrings.Contains(sb2.ToString()))
-                    binaryStrings.Add(sb2.ToString());
-
-                //if (!values.Contains(Convert.ToInt64(sb2.ToString(), 2)))
-                //	values.Add(Convert.ToInt64(sb2.ToString(), 2));
+                if (!addresses.Contains(Convert.ToInt64(sb2.ToString(), 2)))
+                	addresses.Add(Convert.ToInt64(sb2.ToString(), 2));
             }
 
-        memory2[memoryAddress] = values;
+            foreach (long l in addresses)
+            {
+                memory[l] = value;
+            }
         }
     }
 
