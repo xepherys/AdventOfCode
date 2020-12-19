@@ -74,9 +74,9 @@ namespace _2020_16_Ticket_Translation
             Console.Read();
         }
 
-        static int parseMyTicket(int[] pos)
+        static long parseMyTicket(int[] pos)
         {
-            int _ret = 1;
+            long _ret = 1;
 
             foreach (int p in pos)
             {
