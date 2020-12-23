@@ -30,7 +30,7 @@ namespace _2020_18_Operation_Order
                 Console.WriteLine(EvaluateProblem(s) + "\n");
             }
             */
-
+            
             foreach (string s in problems)
             {
                 Console.WriteLine(s);
@@ -40,7 +40,7 @@ namespace _2020_18_Operation_Order
             }
 
             Console.WriteLine($"\n\nSum of all problems: {answer}");
-
+            
             Console.Read();
             Environment.Exit(0);
         }
@@ -89,7 +89,7 @@ namespace _2020_18_Operation_Order
                 if (start > -1 && stop > start)
                 {
                     string rep = problem.Substring(start + 1, stop - start - 1);
-                    long val = Solve(rep);
+                    long val = Solve2(rep);
                     problem = problem.Replace("(" + rep + ")", val.ToString());
 
                     start = -1;
@@ -98,7 +98,7 @@ namespace _2020_18_Operation_Order
                 }
             }
 
-            return Solve(problem);
+            return Solve2(problem);
         }
 
         static long Solve(string s)
@@ -117,6 +117,41 @@ namespace _2020_18_Operation_Order
                 else if (p[i] == "*")
                     _ret *= Convert.ToInt32(p[++i]);
             }
+
+            return _ret;
+        }
+
+        static long Solve2(string s)
+        {
+            long _ret = 0;
+
+            List<string> p = s.Split(' ').ToList();
+
+            for (int i = p.Count() - 2; i > 0; i--)
+            {
+                if (p[i] == "+")
+                {
+                    p[i - 1] = (Convert.ToInt32(p[i - 1]) + Convert.ToInt32(p[i + 1])).ToString();
+                    p.RemoveAt(i + 1);
+                    p.RemoveAt(i);
+
+                    i = p.Count() - 1;
+                }
+            }
+
+            if (p.Contains("*"))
+            {
+                _ret = Convert.ToInt32(p[0]);
+
+                for (int i = 1; i < p.Count(); i++)
+                {
+                    if (p[i] == "*")
+                        _ret *= Convert.ToInt32(p[++i]);
+                }
+            }
+
+            else
+                _ret = Convert.ToInt32(p[0]);
 
             return _ret;
         }
